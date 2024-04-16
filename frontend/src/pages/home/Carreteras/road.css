@@ -1,0 +1,133 @@
+.cardroads__container {
+    margin: 1.2rem;
+  }
+
+  .road__title{
+    align-content: center;
+  }
+
+  .road_add{
+    display: flex;
+    justify-content: end;
+    width: 150vh;
+  }
+
+  .road_add i{
+    background-color: #eee;
+    padding: 0 0.5rem;
+    border-radius: var(--mb-1);
+  }
+
+  .cardroads__icons{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  .sections-container{
+    padding: .5rem 0;
+  }
+
+  .uil{
+    font-size: var(--h1-font-size);
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+  }
+  
+  .card {
+    flex: 1;
+    margin: .1rem;
+  }
+
+  .services__modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+  } 
+
+  /* Active Modal */
+  .active-modal{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .services__modal-content{
+    width: 400px;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .cardroads__title-content{
+    text-align: center;
+    padding-bottom: .5rem;
+  }
+
+  .services__modal-close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+  
+  .card-content {
+    background-color: #aaaaaa29;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+  }
+
+  .card-content a{
+    cursor: pointer;
+    color: var(--title-color-dark);
+  }
+  
+  .category {
+    font-size: 0.80rem;
+    font-weight: 600;
+    color: #718096;
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
+  
+  .cardroads__title {
+    text-align: center;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    color: #2d3748;
+    margin-bottom: var(--mb-1);
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 1rem;
+  }
+  
+  .link {
+    font-size: 0.875rem;
+    color: #4c51bf;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+  }
+  
